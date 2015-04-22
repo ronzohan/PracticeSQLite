@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA54665A1AE75623002E4A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5466591AE75623002E4A9A /* main.m */; };
+		AA54665D1AE75623002E4A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54665C1AE75623002E4A9A /* AppDelegate.m */; };
+		AA5466601AE75623002E4A9A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54665F1AE75623002E4A9A /* MainViewController.m */; };
+		AA5466651AE75623002E4A9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5466641AE75623002E4A9A /* Images.xcassets */; };
+		AA5466681AE75623002E4A9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5466661AE75623002E4A9A /* LaunchScreen.xib */; };
+		AA5466741AE75624002E4A9A /* SQlite_tutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5466731AE75624002E4A9A /* SQlite_tutTests.m */; };
+		AA54667E1AE756C1002E4A9A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA54667D1AE756C1002E4A9A /* libsqlite3.dylib */; };
+		AA5466851AE75738002E4A9A /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5466841AE75738002E4A9A /* FailedBankInfo.m */; };
+		AA5466891AE7592F002E4A9A /* FailedBankDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5466881AE7592F002E4A9A /* FailedBankDatabase.m */; };
+		AA54668D1AE75FC8002E4A9A /* FailedBanksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54668C1AE75FC8002E4A9A /* FailedBanksListViewController.m */; };
+		AA54668F1AE762CE002E4A9A /* banklist.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = AA54668E1AE762CE002E4A9A /* banklist.sqlite3 */; };
+		AA5466951AE774C3002E4A9A /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5466941AE774C3002E4A9A /* MainView.xib */; };
+		AA5466981AE778B8002E4A9A /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5466971AE778B8002E4A9A /* NavController.m */; };
+		AA54669B1AE77A83002E4A9A /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54669A1AE77A83002E4A9A /* FailedBankDetails.m */; };
+		AA54669E1AE77D79002E4A9A /* FailedBanksDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54669D1AE77D79002E4A9A /* FailedBanksDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA54666E1AE75624002E4A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA54664C1AE75623002E4A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5466531AE75623002E4A9A;
+			remoteInfo = SQlite_tut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA5466541AE75623002E4A9A /* SQlite_tut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQlite_tut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5466581AE75623002E4A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5466591AE75623002E4A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA54665B1AE75623002E4A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA54665C1AE75623002E4A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA54665E1AE75623002E4A9A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AA54665F1AE75623002E4A9A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AA5466641AE75623002E4A9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA5466671AE75623002E4A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA54666D1AE75624002E4A9A /* SQlite_tutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQlite_tutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5466721AE75624002E4A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5466731AE75624002E4A9A /* SQlite_tutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQlite_tutTests.m; sourceTree = "<group>"; };
+		AA54667D1AE756C1002E4A9A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AA5466831AE75738002E4A9A /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FailedBankInfo.h; path = ../FailedBankInfo.h; sourceTree = "<group>"; };
+		AA5466841AE75738002E4A9A /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FailedBankInfo.m; path = ../FailedBankInfo.m; sourceTree = "<group>"; };
+		AA5466871AE7592F002E4A9A /* FailedBankDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDatabase.h; sourceTree = "<group>"; };
+		AA5466881AE7592F002E4A9A /* FailedBankDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDatabase.m; sourceTree = "<group>"; };
+		AA54668B1AE75FC8002E4A9A /* FailedBanksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBanksListViewController.h; sourceTree = "<group>"; };
+		AA54668C1AE75FC8002E4A9A /* FailedBanksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBanksListViewController.m; sourceTree = "<group>"; };
+		AA54668E1AE762CE002E4A9A /* banklist.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = banklist.sqlite3; sourceTree = "<group>"; };
+		AA5466941AE774C3002E4A9A /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		AA5466961AE778B8002E4A9A /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		AA5466971AE778B8002E4A9A /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		AA5466991AE77A83002E4A9A /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		AA54669A1AE77A83002E4A9A /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		AA54669C1AE77D79002E4A9A /* FailedBanksDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBanksDetailViewController.h; sourceTree = "<group>"; };
+		AA54669D1AE77D79002E4A9A /* FailedBanksDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBanksDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5466511AE75623002E4A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA54667E1AE756C1002E4A9A /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA54666A1AE75624002E4A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA54664B1AE75623002E4A9A = {
+			isa = PBXGroup;
+			children = (
+				AA54667D1AE756C1002E4A9A /* libsqlite3.dylib */,
+				AA5466561AE75623002E4A9A /* SQlite_tut */,
+				AA5466701AE75624002E4A9A /* SQlite_tutTests */,
+				AA5466551AE75623002E4A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5466551AE75623002E4A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466541AE75623002E4A9A /* SQlite_tut.app */,
+				AA54666D1AE75624002E4A9A /* SQlite_tutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5466561AE75623002E4A9A /* SQlite_tut */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466931AE772C9002E4A9A /* Views */,
+				AA54668A1AE75FA8002E4A9A /* Controllers */,
+				AA5466861AE7575A002E4A9A /* Models */,
+				AA54665B1AE75623002E4A9A /* AppDelegate.h */,
+				AA54665C1AE75623002E4A9A /* AppDelegate.m */,
+				AA5466641AE75623002E4A9A /* Images.xcassets */,
+				AA5466811AE75705002E4A9A /* Resources */,
+				AA5466571AE75623002E4A9A /* Supporting Files */,
+				AA54665E1AE75623002E4A9A /* MainViewController.h */,
+				AA54665F1AE75623002E4A9A /* MainViewController.m */,
+			);
+			path = SQlite_tut;
+			sourceTree = "<group>";
+		};
+		AA5466571AE75623002E4A9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466581AE75623002E4A9A /* Info.plist */,
+				AA5466591AE75623002E4A9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5466701AE75624002E4A9A /* SQlite_tutTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466731AE75624002E4A9A /* SQlite_tutTests.m */,
+				AA5466711AE75624002E4A9A /* Supporting Files */,
+			);
+			path = SQlite_tutTests;
+			sourceTree = "<group>";
+		};
+		AA5466711AE75624002E4A9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466721AE75624002E4A9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5466811AE75705002E4A9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466821AE7570C002E4A9A /* DB */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA5466821AE7570C002E4A9A /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				AA54668E1AE762CE002E4A9A /* banklist.sqlite3 */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		AA5466861AE7575A002E4A9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466831AE75738002E4A9A /* FailedBankInfo.h */,
+				AA5466841AE75738002E4A9A /* FailedBankInfo.m */,
+				AA5466871AE7592F002E4A9A /* FailedBankDatabase.h */,
+				AA5466881AE7592F002E4A9A /* FailedBankDatabase.m */,
+				AA5466991AE77A83002E4A9A /* FailedBankDetails.h */,
+				AA54669A1AE77A83002E4A9A /* FailedBankDetails.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AA54668A1AE75FA8002E4A9A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA54669C1AE77D79002E4A9A /* FailedBanksDetailViewController.h */,
+				AA54669D1AE77D79002E4A9A /* FailedBanksDetailViewController.m */,
+				AA54668B1AE75FC8002E4A9A /* FailedBanksListViewController.h */,
+				AA54668C1AE75FC8002E4A9A /* FailedBanksListViewController.m */,
+				AA5466961AE778B8002E4A9A /* NavController.h */,
+				AA5466971AE778B8002E4A9A /* NavController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AA5466931AE772C9002E4A9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA5466661AE75623002E4A9A /* LaunchScreen.xib */,
+				AA5466941AE774C3002E4A9A /* MainView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5466531AE75623002E4A9A /* SQlite_tut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5466771AE75624002E4A9A /* Build configuration list for PBXNativeTarget "SQlite_tut" */;
+			buildPhases = (
+				AA5466501AE75623002E4A9A /* Sources */,
+				AA5466511AE75623002E4A9A /* Frameworks */,
+				AA5466521AE75623002E4A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQlite_tut;
+			productName = SQlite_tut;
+			productReference = AA5466541AE75623002E4A9A /* SQlite_tut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA54666C1AE75624002E4A9A /* SQlite_tutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA54667A1AE75624002E4A9A /* Build configuration list for PBXNativeTarget "SQlite_tutTests" */;
+			buildPhases = (
+				AA5466691AE75624002E4A9A /* Sources */,
+				AA54666A1AE75624002E4A9A /* Frameworks */,
+				AA54666B1AE75624002E4A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA54666F1AE75624002E4A9A /* PBXTargetDependency */,
+			);
+			name = SQlite_tutTests;
+			productName = SQlite_tutTests;
+			productReference = AA54666D1AE75624002E4A9A /* SQlite_tutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA54664C1AE75623002E4A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AppVenture;
+				TargetAttributes = {
+					AA5466531AE75623002E4A9A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AA54666C1AE75624002E4A9A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AA5466531AE75623002E4A9A;
+					};
+				};
+			};
+			buildConfigurationList = AA54664F1AE75623002E4A9A /* Build configuration list for PBXProject "SQlite_tut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA54664B1AE75623002E4A9A;
+			productRefGroup = AA5466551AE75623002E4A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5466531AE75623002E4A9A /* SQlite_tut */,
+				AA54666C1AE75624002E4A9A /* SQlite_tutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5466521AE75623002E4A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5466951AE774C3002E4A9A /* MainView.xib in Resources */,
+				AA5466681AE75623002E4A9A /* LaunchScreen.xib in Resources */,
+				AA5466651AE75623002E4A9A /* Images.xcassets in Resources */,
+				AA54668F1AE762CE002E4A9A /* banklist.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA54666B1AE75624002E4A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5466501AE75623002E4A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5466891AE7592F002E4A9A /* FailedBankDatabase.m in Sources */,
+				AA54668D1AE75FC8002E4A9A /* FailedBanksListViewController.m in Sources */,
+				AA5466851AE75738002E4A9A /* FailedBankInfo.m in Sources */,
+				AA5466981AE778B8002E4A9A /* NavController.m in Sources */,
+				AA54669E1AE77D79002E4A9A /* FailedBanksDetailViewController.m in Sources */,
+				AA5466601AE75623002E4A9A /* MainViewController.m in Sources */,
+				AA54669B1AE77A83002E4A9A /* FailedBankDetails.m in Sources */,
+				AA54665D1AE75623002E4A9A /* AppDelegate.m in Sources */,
+				AA54665A1AE75623002E4A9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5466691AE75624002E4A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5466741AE75624002E4A9A /* SQlite_tutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA54666F1AE75624002E4A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5466531AE75623002E4A9A /* SQlite_tut */;
+			targetProxy = AA54666E1AE75624002E4A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5466661AE75623002E4A9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5466671AE75623002E4A9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5466751AE75624002E4A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA5466761AE75624002E4A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5466781AE75624002E4A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQlite_tut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5466791AE75624002E4A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQlite_tut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA54667B1AE75624002E4A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SQlite_tutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQlite_tut.app/SQlite_tut";
+			};
+			name = Debug;
+		};
+		AA54667C1AE75624002E4A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SQlite_tutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQlite_tut.app/SQlite_tut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA54664F1AE75623002E4A9A /* Build configuration list for PBXProject "SQlite_tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5466751AE75624002E4A9A /* Debug */,
+				AA5466761AE75624002E4A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5466771AE75624002E4A9A /* Build configuration list for PBXNativeTarget "SQlite_tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5466781AE75624002E4A9A /* Debug */,
+				AA5466791AE75624002E4A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA54667A1AE75624002E4A9A /* Build configuration list for PBXNativeTarget "SQlite_tutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA54667B1AE75624002E4A9A /* Debug */,
+				AA54667C1AE75624002E4A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA54664C1AE75623002E4A9A /* Project object */;
+}
